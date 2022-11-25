@@ -1,0 +1,28 @@
+.headercl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+
+.moviecl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+#light .App {
+  background-color: rgb(231, 231, 231);
+}
+
+.light {
+  background-color: rgb(231, 231, 231);
+}
+#dark .App {
+  background-color: #222;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+}
